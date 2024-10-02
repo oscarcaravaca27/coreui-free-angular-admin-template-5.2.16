@@ -16,12 +16,12 @@ export const navItems: INavData[] = [
   },
   {
     name: 'Colores',
-    url: '/tema/colores',
+    url: '/theme/colors',
     iconComponent: { name: 'cil-drop' }
   },
   {
     name: 'Tipografía',
-    url: '/tema/tipografía',
+    url: '/tema/typography',
     linkProps: { fragment: 'headings' },
     iconComponent: { name: 'cil-pencil' }
   },
@@ -47,12 +47,12 @@ export const navItems: INavData[] = [
   },
   
       {
-        name: 'Login',
+        name: 'Conectarse',
         url: '/login',
         icon: 'nav-icon-bullet'
       },
       {
-        name: 'Register',
+        name: 'Registrarse',
         url: '/register',
         icon: 'nav-icon-bullet'
       },
