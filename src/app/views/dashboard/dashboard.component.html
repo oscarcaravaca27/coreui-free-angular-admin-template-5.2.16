@@ -36,34 +36,34 @@
       [type]="mainChart.type"
       (chartRef)="handleChartRef($event)"
     >
-      Main chart
+      Cuadro Principal
     </c-chart>
   </c-card-body>
   <c-card-footer>
     <c-row class="text-center mb-2" [xl]="5" [lg]="4" [sm]="2" [xs]="1" [gutter]="4">
       <c-col>
-        <div class="text-body-secondary">Visits</div>
-        <strong>29.703 Users (40%)</strong>
+        <div class="text-body-secondary">Visitas</div>
+        <strong>29.703 Ussuarios (40%)</strong>
         <c-progress class="mt-2" thin color="success" value="40" aria-label="User visits" />
       </c-col>
       <c-col>
-        <div class="text-body-secondary">Unique</div>
-        <div class="fw-semibold text-truncate">24.093 Users (20%)</div>
+        <div class="text-body-secondary">Unicos</div>
+        <div class="fw-semibold text-truncate">24.093 Usuarios (20%)</div>
         <c-progress class="mt-2" thin color="info" value="20" aria-label="Unique users" />
       </c-col>
       <c-col>
-        <div class="text-body-secondary">Page views</div>
-        <div class="fw-semibold text-truncate">78.706 Views (60%)</div>
+        <div class="text-body-secondary">Paginas vistas</div>
+        <div class="fw-semibold text-truncate">78.706 Vistas (60%)</div>
         <c-progress class="mt-2" thin color="warning" value="60" aria-label="Page views" />
       </c-col>
       <c-col>
-        <div class="text-body-secondary">New Users</div>
-        <div class="fw-semibold text-truncate">22.123 Users (80%)</div>
+        <div class="text-body-secondary">Nuevos Usuarios</div>
+        <div class="fw-semibold text-truncate">22.123 Usuarios (80%)</div>
         <c-progress class="mt-2" thin color="danger" value="80" aria-label="New users" />
       </c-col>
       <c-col class="d-none d-xl-block">
-        <div class="text-body-secondary">Bounce Rate</div>
-        <div class="fw-semibold text-truncate">Average Rate (40.15%)</div>
+        <div class="text-body-secondary">Tasa de rebote</div>
+        <div class="fw-semibold text-truncate">Tasa Promedio (40.15%)</div>
         <c-progress class="mt-2" thin value="40" aria-label="Bounce rate" />
       </c-col>
     </c-row>
@@ -75,21 +75,21 @@
 <c-row class="mt-4">
   <c-col xs>
     <c-card class="mb-4">
-      <c-card-header>Traffic {{ "&" }} Sales</c-card-header>
+      <c-card-header>Trafico {{ "&" }} Ventas</c-card-header>
       <c-card-body>
         <c-row>
           <c-col md="6" xl="6" xs="12">
             <c-row>
               <c-col xs="6">
                 <div class="border-start border-start-4 border-start-info py-1 px-3 mb-3">
-                  <div class="text-body-secondary text-truncate small">New Clients</div>
+                  <div class="text-body-secondary text-truncate small">Nuevos Clientes</div>
                   <div class="fs-5 fw-semibold">9,123</div>
                 </div>
               </c-col>
               <c-col xs="6">
                 <div class="border-start border-start-4 border-start-danger py-1 px-3 mb-3">
                   <div class="text-body-secondary text-truncate small">
-                    Recurring Clients
+                    Clientes Recurrentes
                   </div>
                   <div class="fs-5 fw-semibold">22,643</div>
                 </div>
@@ -98,7 +98,7 @@
             <hr class="mt-0" />
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Monday</span>
+                <span class="text-body-secondary small">Lunes</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="34" aria-label="Monday new clients" />
@@ -107,7 +107,7 @@
             </div>
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Tuesday</span>
+                <span class="text-body-secondary small">Martes</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="56" aria-label="Tuesday new clients" />
@@ -116,7 +116,7 @@
             </div>
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Wednesday</span>
+                <span class="text-body-secondary small">Miercoles</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="12" aria-label="Wednesday new clients" />
@@ -125,7 +125,7 @@
             </div>
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Thursday</span>
+                <span class="text-body-secondary small">Jueves</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="43" aria-label="Thursday new clients" />
@@ -134,7 +134,7 @@
             </div>
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Friday</span>
+                <span class="text-body-secondary small">Viernes</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="22" aria-label="Friday new clients" />
@@ -143,7 +143,7 @@
             </div>
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Saturday</span>
+                <span class="text-body-secondary small">Sabado</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="53" aria-label="Saturday new clients" />
@@ -152,7 +152,7 @@
             </div>
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Sunday</span>
+                <span class="text-body-secondary small">Domingo</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="9" aria-label="Sunday new clients" />
@@ -164,12 +164,12 @@
                 <sup>
                   <span class="badge badge-pill badge-sm bg-info">&nbsp;</span>
                 </sup>
-                <span>New clients</span>
+                <span>Nuevos Clientes</span>
                 &nbsp;&nbsp;
                 <sup>
                   <span class="badge badge-pill badge-sm bg-danger">&nbsp;</span>
                 </sup>
-                <span>Recurring clients</span>
+                <span>Clientes Recurrente</span>
               </small>
             </div>
           </c-col>
@@ -178,13 +178,13 @@
             <c-row>
               <c-col xs="6">
                 <div class="border-start border-start-4 border-start-warning py-1 px-3 mb-3">
-                  <div class="text-body-secondary text-truncate small">Page views</div>
+                  <div class="text-body-secondary text-truncate small">Paginas Visitadas</div>
                   <div class="fs-5 fw-semibold">78,623</div>
                 </div>
               </c-col>
               <c-col xs="6">
                 <div class="border-start border-start-4 border-start-success py-1 px-3 mb-3">
-                  <div class="text-body-secondary text-truncate small">Organic</div>
+                  <div class="text-body-secondary text-truncate small">Organico</div>
                   <div class="fs-5 fw-semibold">49,123</div>
                 </div>
               </c-col>
@@ -195,7 +195,7 @@
             <div class="progress-group mb-4">
               <div class="progress-group-header">
                 <svg cIcon class="icon icon-lg me-2" name="cilUser"></svg>
-                <span>Male</span>
+                <span>Hombre</span>
                 <span class="ms-auto font-semibold">43%</span>
               </div>
               <div class="progress-group-bars">
@@ -205,7 +205,7 @@
             <div class="progress-group mb-5">
               <div class="progress-group-header">
                 <svg cIcon class="icon icon-lg me-2" name="cilUserFemale"></svg>
-                <span>Female</span>
+                <span>Mujer</span>
                 <span class="ms-auto font-semibold">37%</span>
               </div>
               <div class="progress-group-bars">
@@ -216,7 +216,7 @@
             <div class="progress-group">
               <div class="progress-group-header">
                 <svg cIcon class="icon icon-lg me-2" name="cibGoogle"></svg>
-                <span>Organic Search</span>
+                <span>Búsqueda Orgánica</span>
                 <span class="ms-auto font-semibold">
                   191,235 <span class="text-body-secondary small">(56%)</span>
                 </span>
@@ -296,11 +296,11 @@
             <th class="bg-body-tertiary text-center ">
               <svg cIcon name="cilPeople"></svg>
             </th>
-            <th class="bg-body-tertiary">User</th>
-            <th class="bg-body-tertiary text-center">Country</th>
-            <th class="bg-body-tertiary">Usage</th>
-            <th class="bg-body-tertiary text-center">Payment Method</th>
-            <th class="bg-body-tertiary">Activity</th>
+            <th class="bg-body-tertiary">Usuario</th>
+            <th class="bg-body-tertiary text-center">País</th>
+            <th class="bg-body-tertiary">Uso</th>
+            <th class="bg-body-tertiary text-center">Metodo de Pago</th>
+            <th class="bg-body-tertiary">Actividad</th>
           </tr>
           </thead>
           <tbody>
@@ -313,7 +313,7 @@
                   <div>{{ user.name }}</div>
                   <div class="small text-body-secondary text-nowrap">
                   <span>
-                    {{ user.state }} | Registered: {{ user.registered }}
+                    {{ user.state }} | Registrado: {{ user.registered }}
                   </span>
                   </div>
                 </td>
@@ -343,7 +343,7 @@
                   <svg cIcon name="cibCc{{ user.payment }}" size="xl"></svg>
                 </td>
                 <td>
-                  <div class="small text-body-secondary">Last login</div>
+                  <div class="small text-body-secondary">Ultima Conexion</div>
                   <div class="fw-semibold text-nowrap">{{ user.activity }}</div>
                 </td>
               </tr>
