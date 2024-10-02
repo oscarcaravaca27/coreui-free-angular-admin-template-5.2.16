@@ -26,7 +26,17 @@ export class ChartsComponent {
         label: 'GitHub Commits',
         backgroundColor: '#f87979',
         data: [40, 20, 12, 39, 17, 42, 79]
-      }
+      },
+      {
+        label: 'Twitter Twits',
+        backgroundColor: '#0000CD',
+        data: [50, 30, 17, 49, 27, 40, 90]
+      },
+      {
+        label: 'Facebook Commentarios',
+        backgroundColor: '#778899',
+        data: [20, 10, 8, 19, 12, 22, 59]
+      }            
     ]
   };
 
@@ -64,8 +74,14 @@ export class ChartsComponent {
     labels: ['VueJs', 'EmberJs', 'ReactJs', 'Angular'],
     datasets: [
       {
+        label: 'Primer Mes',
         backgroundColor: ['#41B883', '#E46651', '#00D8FF', '#DD1B16'],
         data: [40, 20, 80, 10]
+      },
+      {
+        label: 'Segundo Mes',
+        backgroundColor: ['#41B883', '#E46651', '#00D8FF', '#DD1B16'],
+        data: [50, 30, 70, 2]
       }
     ]
   };
