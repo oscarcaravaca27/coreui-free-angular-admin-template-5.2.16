@@ -88,6 +88,17 @@ export class ChartsComponent {
     ]
   };
 
+  chartDoughnutData2: ChartData = {
+    labels: ['Tacos', 'Pizza', 'Kebab', 'Ensalada', 'Chorizo', 'Zanahoria'],
+    datasets: [
+      {
+        data: [100, 200, 350, 10, 150, 50],
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#00008B', '#FF8C00', '#66CDAA'],
+        hoverBackgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#00008B', '#FF8C00', '#66CDAA']
+      }
+    ]
+  };
+
   // chartPieOptions = {
   //   aspectRatio: 1,
   //   responsive: true,
