@@ -56,7 +56,7 @@ export class WidgetsBrandComponent implements AfterContentInit {
       }
     }
   };
-  labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+  labels = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio'];
   datasets = {
     borderWidth: 2,
     fill: true
@@ -70,7 +70,7 @@ export class WidgetsBrandComponent implements AfterContentInit {
   brandData: BrandData[] = [
     {
       icon: 'cibFacebook',
-      values: [{ title: 'friends', value: '89K' }, { title: 'feeds', value: '459' }],
+      values: [{ title: 'amigos', value: '89K' }, { title: 'publicaciones', value: '459' }],
       capBg: { '--cui-card-cap-bg': '#3b5998' },
       labels: [...this.labels],
       data: {
@@ -80,7 +80,7 @@ export class WidgetsBrandComponent implements AfterContentInit {
     },
     {
       icon: 'cibTwitter',
-      values: [{ title: 'followers', value: '973k' }, { title: 'tweets', value: '1.792' }],
+      values: [{ title: 'seguidores', value: '973k' }, { title: 'tweets', value: '1.792' }],
       capBg: { '--cui-card-cap-bg': '#00aced' },
       data: {
         labels: [...this.labels],
@@ -89,7 +89,7 @@ export class WidgetsBrandComponent implements AfterContentInit {
     },
     {
       icon: 'cib-linkedin',
-      values: [{ title: 'contacts', value: '500' }, { title: 'feeds', value: '1.292' }],
+      values: [{ title: 'contactos', value: '500' }, { title: 'publicaciones', value: '1.292' }],
       capBg: { '--cui-card-cap-bg': '#4875b4' },
       data: {
         labels: [...this.labels],
@@ -98,7 +98,7 @@ export class WidgetsBrandComponent implements AfterContentInit {
     },
     {
       icon: 'cilCalendar',
-      values: [{ title: 'events', value: '12+' }, { title: 'meetings', value: '4' }],
+      values: [{ title: 'eventos', value: '12+' }, { title: 'reuniones', value: '4' }],
       color: 'warning',
       data: {
         labels: [...this.labels],
