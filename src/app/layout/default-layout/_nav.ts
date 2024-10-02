@@ -10,23 +10,23 @@ export const navItems: INavData[] = [
       text: 'NEW'
     }
   },
-  {
+  /*{
     title: true,
-    name: 'Theme'
-  },
+    name: 'Tema'
+  },*/
   {
-    name: 'Colors',
-    url: '/theme/colors',
+    name: 'Colores',
+    url: '/tema/colores',
     iconComponent: { name: 'cil-drop' }
   },
   {
-    name: 'Typography',
-    url: '/theme/typography',
+    name: 'Tipografía',
+    url: '/tema/tipografía',
     linkProps: { fragment: 'headings' },
     iconComponent: { name: 'cil-pencil' }
   },
   {
-    name: 'Components',
+    name: 'Componentes',
     title: true
   },
   {
