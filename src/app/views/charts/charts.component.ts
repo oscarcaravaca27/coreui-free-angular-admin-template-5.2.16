@@ -17,7 +17,7 @@ export class ChartsComponent {
     maintainAspectRatio: false
   };
 
-  months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
   chartBarData: ChartData = {
     labels: [...this.months].slice(0, 7),

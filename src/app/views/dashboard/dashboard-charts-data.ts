@@ -58,18 +58,18 @@ export class DashboardChartsData {
     let labels: string[] = [];
     if (period === 'Month') {
       labels = [
-        'January',
+        'Enero',
         'February',
-        'March',
-        'April',
-        'May',
-        'June',
-        'July',
-        'August',
-        'September',
-        'October',
-        'November',
-        'December'
+        'Marzo',
+        'Abril',
+        'Mayo',
+        'Junio',
+        'Julio',
+        'Agosto',
+        'Septiembre',
+        'Octubre',
+        'Noviembre',
+        'Diciembre'
       ];
     } else {
       /* tslint:disable:max-line-length */
