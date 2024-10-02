@@ -27,7 +27,7 @@ export const navItems: INavData[] = [
   },
   
   {
-    name: 'Charts',
+    name: 'Gráficos',
     iconComponent: { name: 'cil-chart-pie' },
     url: '/charts'
   },

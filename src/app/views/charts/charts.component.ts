@@ -38,7 +38,7 @@ export class ChartsComponent {
     labels: [...this.months].slice(0, 7),
     datasets: [
       {
-        label: 'My First dataset',
+        label: 'Mi Primer dataset',
         backgroundColor: 'rgba(220, 220, 220, 0.2)',
         borderColor: 'rgba(220, 220, 220, 1)',
         pointBackgroundColor: 'rgba(220, 220, 220, 1)',
@@ -46,7 +46,7 @@ export class ChartsComponent {
         data: [this.randomData, this.randomData, this.randomData, this.randomData, this.randomData, this.randomData, this.randomData]
       },
       {
-        label: 'My Second dataset',
+        label: 'Mi Segundo dataset',
         backgroundColor: 'rgba(151, 187, 205, 0.2)',
         borderColor: 'rgba(151, 187, 205, 1)',
         pointBackgroundColor: 'rgba(151, 187, 205, 1)',
@@ -78,7 +78,7 @@ export class ChartsComponent {
   // };
 
   chartPieData: ChartData = {
-    labels: ['Red', 'Green', 'Yellow'],
+    labels: ['Rojo', 'Verde', 'Amarillo'],
     datasets: [
       {
         data: [300, 50, 100],
@@ -96,7 +96,7 @@ export class ChartsComponent {
   // };
 
   chartPolarAreaData: ChartData = {
-    labels: ['Red', 'Green', 'Yellow', 'Grey', 'Blue'],
+    labels: ['Rojo', 'Verde', 'Amarillo', 'Gris', 'Azul'],
     datasets: [
       {
         data: [11, 16, 7, 3, 14],
@@ -106,7 +106,7 @@ export class ChartsComponent {
   };
 
   chartRadarData: ChartData = {
-    labels: ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'],
+    labels: ['Comer', 'Beber', 'Dormir', 'Diseñar', 'Codificación', 'Ciclismo', 'Correr'],
     datasets: [
       {
         label: '2020',
