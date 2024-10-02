@@ -98,7 +98,7 @@
             <hr class="mt-0" />
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Monday</span>
+                <span class="text-body-secondary small">Lunes</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="34" aria-label="Monday new clients" />
@@ -107,7 +107,7 @@
             </div>
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Tuesday</span>
+                <span class="text-body-secondary small">Martes</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="56" aria-label="Tuesday new clients" />
@@ -116,7 +116,7 @@
             </div>
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Wednesday</span>
+                <span class="text-body-secondary small">Miercoles</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="12" aria-label="Wednesday new clients" />
@@ -125,7 +125,7 @@
             </div>
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Thursday</span>
+                <span class="text-body-secondary small">Jueves</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="43" aria-label="Thursday new clients" />
@@ -134,7 +134,7 @@
             </div>
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Friday</span>
+                <span class="text-body-secondary small">Viernes</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="22" aria-label="Friday new clients" />
@@ -143,7 +143,7 @@
             </div>
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Saturday</span>
+                <span class="text-body-secondary small">Sabado</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="53" aria-label="Saturday new clients" />
@@ -152,7 +152,7 @@
             </div>
             <div class="progress-group mb-4">
               <div class="progress-group-prepend">
-                <span class="text-body-secondary small">Sunday</span>
+                <span class="text-body-secondary small">Domingo</span>
               </div>
               <div class="progress-group-bars">
                 <c-progress thin color="info" value="9" aria-label="Sunday new clients" />
@@ -178,13 +178,13 @@
             <c-row>
               <c-col xs="6">
                 <div class="border-start border-start-4 border-start-warning py-1 px-3 mb-3">
-                  <div class="text-body-secondary text-truncate small">Page views</div>
+                  <div class="text-body-secondary text-truncate small">Paginas Visitadas</div>
                   <div class="fs-5 fw-semibold">78,623</div>
                 </div>
               </c-col>
               <c-col xs="6">
                 <div class="border-start border-start-4 border-start-success py-1 px-3 mb-3">
-                  <div class="text-body-secondary text-truncate small">Organic</div>
+                  <div class="text-body-secondary text-truncate small">Orgánico</div>
                   <div class="fs-5 fw-semibold">49,123</div>
                 </div>
               </c-col>
@@ -195,7 +195,7 @@
             <div class="progress-group mb-4">
               <div class="progress-group-header">
                 <svg cIcon class="icon icon-lg me-2" name="cilUser"></svg>
-                <span>Male</span>
+                <span>Hombre</span>
                 <span class="ms-auto font-semibold">43%</span>
               </div>
               <div class="progress-group-bars">
@@ -205,7 +205,7 @@
             <div class="progress-group mb-5">
               <div class="progress-group-header">
                 <svg cIcon class="icon icon-lg me-2" name="cilUserFemale"></svg>
-                <span>Female</span>
+                <span>Mujer</span>
                 <span class="ms-auto font-semibold">37%</span>
               </div>
               <div class="progress-group-bars">
@@ -216,7 +216,7 @@
             <div class="progress-group">
               <div class="progress-group-header">
                 <svg cIcon class="icon icon-lg me-2" name="cibGoogle"></svg>
-                <span>Organic Search</span>
+                <span>Busqueda organica</span>
                 <span class="ms-auto font-semibold">
                   191,235 <span class="text-body-secondary small">(56%)</span>
                 </span>
@@ -296,11 +296,11 @@
             <th class="bg-body-tertiary text-center ">
               <svg cIcon name="cilPeople"></svg>
             </th>
-            <th class="bg-body-tertiary">User</th>
-            <th class="bg-body-tertiary text-center">Country</th>
-            <th class="bg-body-tertiary">Usage</th>
-            <th class="bg-body-tertiary text-center">Payment Method</th>
-            <th class="bg-body-tertiary">Activity</th>
+            <th class="bg-body-tertiary">Usuario</th>
+            <th class="bg-body-tertiary text-center">País</th>
+            <th class="bg-body-tertiary">Uso</th>
+            <th class="bg-body-tertiary text-center">Metodo de Pago</th>
+            <th class="bg-body-tertiary">Actividad</th>
           </tr>
           </thead>
           <tbody>
@@ -313,7 +313,7 @@
                   <div>{{ user.name }}</div>
                   <div class="small text-body-secondary text-nowrap">
                   <span>
-                    {{ user.state }} | Registered: {{ user.registered }}
+                    {{ user.state }} | Registrado: {{ user.registered }}
                   </span>
                   </div>
                 </td>
@@ -343,7 +343,7 @@
                   <svg cIcon name="cibCc{{ user.payment }}" size="xl"></svg>
                 </td>
                 <td>
-                  <div class="small text-body-secondary">Last login</div>
+                  <div class="small text-body-secondary">Ultimo logeo</div>
                   <div class="fw-semibold text-nowrap">{{ user.activity }}</div>
                 </td>
               </tr>
