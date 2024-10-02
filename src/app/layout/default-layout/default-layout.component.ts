@@ -17,6 +17,7 @@ import {
 
 import { DefaultFooterComponent, DefaultHeaderComponent } from './';
 import { navItems } from './_nav';
+import { LoginComponent } from "../../views/pages/login/login.component";
 
 function isOverflown(element: HTMLElement) {
   return (
@@ -45,8 +46,9 @@ function isOverflown(element: HTMLElement) {
     ShadowOnScrollDirective,
     ContainerComponent,
     RouterOutlet,
-    DefaultFooterComponent
-  ]
+    DefaultFooterComponent,
+    LoginComponent
+]
 })
 export class DefaultLayoutComponent {
   public navItems = navItems;

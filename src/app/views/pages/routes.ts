@@ -28,5 +28,5 @@ export const routes: Routes = [
     data: {
       title: 'Register Page'
     }
-  }
+  },
 ];

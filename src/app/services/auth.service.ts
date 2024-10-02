@@ -30,7 +30,7 @@ interface RegisterRequest {
   providedIn: 'root',
 })
 export class AuthService {
-  private baseUrl = 'http://localhost:5000/api/auth'; // URL de tu API backend
+  private baseUrl = 'http://localhost:44397/api/auth'; // URL de tu API backend
 
   constructor(private http: HttpClient) {}
 
